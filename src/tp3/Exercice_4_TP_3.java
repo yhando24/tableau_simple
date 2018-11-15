@@ -12,7 +12,7 @@ public class Exercice_4_TP_3 {
 		Scanner sc = new Scanner(System.in);
 		
 		Boolean menuOk=true;
-		int nbChoix =0;
+
 		int [] tab0 = new int [0]; 
 		
 		System.out.println("Bienvenu dans le menu veuillez choisir une option ");
