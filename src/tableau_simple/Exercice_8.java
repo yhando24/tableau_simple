@@ -12,13 +12,13 @@ public class Exercice_8 {
 	System.out.println("Veuillez saisir la taille du tableau");
 	
 
-	int taille = Integer.parseInt(sc.nextLine());
+	int taille = sc.nextInt();
 	int tabs [] = new int [taille]; 
 	int multiple = 0;
 	for (int i = 0; i < taille; i++) {
 		// on demande à l'utilisateur de saisir les valeurs du tableau
 		System.out.println("saisir une valeur svp ! ");
-		tabs[i] = Integer.parseInt(sc.nextLine());
+		tabs[i] = sc.nextInt();
 		// on regarde si cette valeurs a lindice i  divise par 3 reste egale a 0? si c'est vrai on a un multiple de 3, on rajoute 1 a multiple
 		 if(tabs[i]% 3 == 0) {
 			 multiple += 1; 
